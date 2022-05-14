@@ -72,5 +72,86 @@ select {
     scroll-behavior: auto !important;
   }
 }
+header {
+  background-image: url(/image-header.d56dd7f9.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 3rem 1.5rem;
+}
+header .nav-container .nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .nav-container .nav-items .burger-btn {
+  cursor: pointer;
+}
+header .nav-container .nav-items .menu {
+  background-color: hsl(0deg, 0%, 100%);
+  display: none;
+  position: absolute;
+  margin-top: 3rem;
+  margin-inline: 1.5rem;
+  top: 70px;
+  right: 0;
+  left: 0;
+  z-index: 15;
+}
+header .nav-container .nav-items .menu .ul-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0;
+  padding-block: 1.5rem;
+  gap: 2rem;
+}
+header .nav-container .nav-items .menu .ul-container li {
+  list-style: none;
+}
+header .nav-container .nav-items .menu .ul-container li a {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: hsl(232deg, 10%, 55%);
+}
+header .nav-container .nav-items .menu .ul-container li .contact-btn {
+  background-color: hsl(51deg, 100%, 49%);
+  color: hsl(212deg, 27%, 19%);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+header .nav-container .nav-items .menu::before {
+  content: "";
+  position: absolute;
+  border: 30px solid transparent;
+  border-right-color: hsl(0deg, 0%, 100%);
+  top: -30px;
+  right: 0px;
+}
+header .nav-container .nav-items .show {
+  display: block;
+}
+header .header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9rem;
+}
+header .header-content h1 {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+header .header-content img {
+  transform: translateY(90px);
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

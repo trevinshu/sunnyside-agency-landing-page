@@ -1,1 +1,115 @@
 @use '_reset.scss' as reset;
+
+//Colors
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$dark-cyan: hsl(167, 40%, 24%); //graphic design text
+$dark-blue: hsl(198, 62%, 26%); //photography text
+$light-cyan: hsl(168, 34%, 41%); //footer
+$dark-grey: hsl(212, 27%, 19%);
+$medium-grey: hsl(213, 9%, 39%);
+$light-grey: hsl(232, 10%, 55%);
+$off-white: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+//Fonts
+$barlow: 'Barlow', sans-serif;
+$fraunces: 'Fraunces', serif;
+
+//Header
+header {
+  background-image: url(../img/mobile/image-header.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 3rem 1.5rem;
+
+  //Nav Container
+  .nav-container {
+    .nav-items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .burger-btn {
+        cursor: pointer;
+      }
+
+      .menu {
+        background-color: $white;
+        display: none;
+        position: absolute;
+        margin-top: 3rem;
+        margin-inline: 1.5rem;
+        top: 70px;
+        right: 0;
+        left: 0;
+        z-index: 15;
+
+        .ul-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding-left: 0;
+          padding-block: 1.5rem;
+          gap: 2rem;
+
+          li {
+            list-style: none;
+
+            a {
+              font-family: $barlow;
+              font-size: 1.125rem;
+              text-decoration: none;
+              color: $light-grey;
+            }
+
+            .contact-btn {
+              background-color: $yellow;
+              color: $dark-grey;
+              padding: 1rem 2rem;
+              border-radius: 2rem;
+            }
+          }
+        }
+      }
+
+      .menu::before {
+        content: '';
+        position: absolute;
+        border: 30px solid transparent;
+        border-right-color: $white;
+        top: -30px;
+        right: 0px;
+      }
+
+      .show {
+        display: block;
+      }
+    }
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9rem;
+
+    h1 {
+      font-size: 3rem;
+      font-family: $fraunces;
+      text-transform: uppercase;
+      color: $white;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    img {
+      transform: translateY(90px);
+    }
+  }
+}
