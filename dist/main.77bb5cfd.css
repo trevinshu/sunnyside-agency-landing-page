@@ -283,5 +283,12 @@ main .section-five-container .article-container article p:last-of-type {
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
 }
+main .section-six-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .section-six-container img {
+  width: 50%;
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
