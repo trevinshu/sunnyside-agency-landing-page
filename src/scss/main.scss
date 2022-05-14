@@ -121,7 +121,8 @@ header {
 //Main Content
 
 main {
-  .section-one-container {
+  .section-one-container,
+  .section-two-container {
     article {
       display: flex;
       justify-content: center;

@@ -158,26 +158,30 @@ header .header-content img {
   transform: translateY(130px);
 }
 
-main .section-one-container article {
+main .section-one-container article,
+main .section-two-container article {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 3rem 1rem;
 }
-main .section-one-container article h2 {
+main .section-one-container article h2,
+main .section-two-container article h2 {
   font-family: "Fraunces", serif;
   font-size: 2rem;
   text-align: center;
   padding-bottom: 1rem;
 }
-main .section-one-container article p {
+main .section-one-container article p,
+main .section-two-container article p {
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   text-align: center;
   padding-bottom: 2rem;
 }
-main .section-one-container article a {
+main .section-one-container article a,
+main .section-two-container article a {
   font-family: "Fraunces", serif;
   color: hsl(212deg, 27%, 19%);
   text-decoration: none;
