@@ -72,13 +72,17 @@ select {
     scroll-behavior: auto !important;
   }
 }
+* {
+  font-size: 18px;
+}
+
 header {
   background-image: url(/image-header.d56dd7f9.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1rem;
 }
 header .nav-container .nav-items {
   display: flex;
@@ -93,8 +97,8 @@ header .nav-container .nav-items .menu {
   background-color: hsl(0deg, 0%, 100%);
   display: none;
   position: absolute;
-  margin-top: 3rem;
-  margin-inline: 1.5rem;
+  margin-top: 2.5rem;
+  margin-inline: 1rem;
   top: 70px;
   right: 0;
   left: 0;
@@ -106,7 +110,7 @@ header .nav-container .nav-items .menu .ul-container {
   align-items: center;
   flex-direction: column;
   padding-left: 0;
-  padding-block: 1.5rem;
+  padding-block: 2rem;
   gap: 2rem;
 }
 header .nav-container .nav-items .menu .ul-container li {
@@ -114,7 +118,6 @@ header .nav-container .nav-items .menu .ul-container li {
 }
 header .nav-container .nav-items .menu .ul-container li a {
   font-family: "Barlow", sans-serif;
-  font-size: 1.125rem;
   text-decoration: none;
   color: hsl(232deg, 10%, 55%);
 }
@@ -140,18 +143,47 @@ header .header-content {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 9rem;
+  margin-top: 8rem;
 }
 header .header-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
   font-family: "Fraunces", serif;
   text-transform: uppercase;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 header .header-content img {
-  transform: translateY(90px);
+  transform: translateY(130px);
+}
+
+main .section-one-container article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 1rem;
+}
+main .section-one-container article h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+main .section-one-container article p {
+  font-family: "Barlow", sans-serif;
+  color: hsl(232deg, 10%, 55%);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+main .section-one-container article a {
+  font-family: "Fraunces", serif;
+  color: hsl(212deg, 27%, 19%);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: #ffeb7a solid 5px;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

@@ -16,6 +16,10 @@ $white: hsl(0, 0%, 100%);
 $barlow: 'Barlow', sans-serif;
 $fraunces: 'Fraunces', serif;
 
+* {
+  font-size: 18px;
+}
+
 //Header
 header {
   background-image: url(../img/mobile/image-header.jpg);
@@ -23,7 +27,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1rem;
 
   //Nav Container
   .nav-container {
@@ -41,8 +45,8 @@ header {
         background-color: $white;
         display: none;
         position: absolute;
-        margin-top: 3rem;
-        margin-inline: 1.5rem;
+        margin-top: 2.5rem;
+        margin-inline: 1rem;
         top: 70px;
         right: 0;
         left: 0;
@@ -54,7 +58,7 @@ header {
           align-items: center;
           flex-direction: column;
           padding-left: 0;
-          padding-block: 1.5rem;
+          padding-block: 2rem;
           gap: 2rem;
 
           li {
@@ -62,7 +66,6 @@ header {
 
             a {
               font-family: $barlow;
-              font-size: 1.125rem;
               text-decoration: none;
               color: $light-grey;
             }
@@ -97,19 +100,56 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 9rem;
+    margin-top: 8rem;
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
+      letter-spacing: 5px;
       font-family: $fraunces;
       text-transform: uppercase;
       color: $white;
       text-align: center;
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
     }
 
     img {
-      transform: translateY(90px);
+      transform: translateY(130px);
+    }
+  }
+}
+
+//Main Content
+
+main {
+  .section-one-container {
+    article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 3rem 1rem;
+      h2 {
+        font-family: $fraunces;
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        font-family: $barlow;
+        color: $light-grey;
+        text-align: center;
+        padding-bottom: 2rem;
+      }
+
+      a {
+        font-family: $fraunces;
+        color: $dark-grey;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-bottom: lighten($yellow, 25%) solid 5px;
+      }
     }
   }
 }
