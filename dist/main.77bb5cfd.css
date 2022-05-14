@@ -291,4 +291,44 @@ main .section-six-container img {
   width: 50%;
 }
 
+footer {
+  background-color: hsl(167deg, 44%, 70%);
+  padding-block: 3rem;
+}
+footer .footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+footer .footer-container img {
+  filter: invert(50%) sepia(29%) saturate(591%) hue-rotate(118deg) brightness(92%) contrast(89%);
+}
+footer .footer-container .footer-items-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  padding-left: 0;
+}
+footer .footer-container .footer-items-container li {
+  list-style: none;
+}
+footer .footer-container .footer-items-container li a {
+  color: hsl(168deg, 34%, 41%);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+footer .footer-container .social-icons-container {
+  display: flex;
+  gap: 1rem;
+}
+footer .footer-container .social-icons-container a {
+  color: hsl(168deg, 34%, 41%);
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

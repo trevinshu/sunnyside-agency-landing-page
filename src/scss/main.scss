@@ -267,3 +267,48 @@ main {
     }
   }
 }
+
+footer {
+  background-color: hsl(167, 44%, 70%);
+  padding-block: 3rem;
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    img {
+      filter: invert(50%) sepia(29%) saturate(591%) hue-rotate(118deg) brightness(92%) contrast(89%);
+    }
+
+    .footer-items-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: $barlow;
+      width: 100%;
+      padding-left: 0;
+      li {
+        list-style: none;
+
+        a {
+          color: $light-cyan;
+          text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .social-icons-container {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        color: $light-cyan;
+        cursor: pointer;
+      }
+    }
+  }
+}
