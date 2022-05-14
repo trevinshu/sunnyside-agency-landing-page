@@ -153,4 +153,36 @@ main {
       }
     }
   }
+
+  .section-two-container {
+    .audience-btn {
+      border-bottom: lighten($soft-red, 25%) solid 5px;
+    }
+  }
+
+  .section-three-container {
+    background-image: url(../img/mobile/image-graphic-design.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    article {
+      padding-top: 30rem;
+      color: $dark-cyan;
+      padding-inline: 0.5rem;
+      h2 {
+        font-size: 2rem;
+        font-family: $fraunces;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        font-family: $barlow;
+        text-align: center;
+      }
+    }
+  }
 }

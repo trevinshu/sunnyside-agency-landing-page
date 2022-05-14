@@ -189,5 +189,31 @@ main .section-two-container article a {
   cursor: pointer;
   border-bottom: #ffeb7a solid 5px;
 }
+main .section-two-container .audience-btn {
+  border-bottom: #ffe9e6 solid 5px;
+}
+main .section-three-container {
+  background-image: url(/image-graphic-design.9a867e8b.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+main .section-three-container article {
+  padding-top: 30rem;
+  color: hsl(167deg, 40%, 24%);
+  padding-inline: 0.5rem;
+}
+main .section-three-container article h2 {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+main .section-three-container article p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
