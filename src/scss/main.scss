@@ -168,9 +168,27 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
 
-    article {
+    .art-three-container {
       padding-top: 32rem;
       color: $dark-cyan;
+      padding-inline: 1rem;
+      h2 {
+        font-size: 2rem;
+        font-family: $fraunces;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        font-family: $barlow;
+        text-align: center;
+      }
+    }
+
+    .art-four-container {
+      padding-top: 32rem;
+      color: $dark-blue;
       padding-inline: 1rem;
       h2 {
         font-size: 2rem;
@@ -189,5 +207,54 @@ main {
 
   .section-four-container {
     background-image: url(../img/mobile/image-photography.jpg);
+  }
+
+  .section-five-container {
+    padding: 3rem 1rem;
+    h2 {
+      font-family: $fraunces;
+      text-transform: uppercase;
+      color: $light-grey;
+      padding-bottom: 3rem;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+
+    .article-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 4rem;
+
+      article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+          border-radius: 50%;
+        }
+
+        p:first-of-type {
+          font-family: $barlow;
+          color: $medium-grey;
+          text-align: center;
+          margin-block: 1.5rem;
+        }
+
+        h3 {
+          font-family: $fraunces;
+          font-weight: 900;
+          margin-bottom: 0.5rem;
+        }
+
+        p:last-of-type {
+          font-family: $barlow;
+          color: $light-grey;
+        }
+      }
+    }
   }
 }

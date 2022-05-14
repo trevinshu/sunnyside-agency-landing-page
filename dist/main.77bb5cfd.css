@@ -200,27 +200,88 @@ main .section-four-container {
   background-repeat: no-repeat;
   height: 100vh;
 }
-main .section-three-container article,
-main .section-four-container article {
+main .section-three-container .art-three-container,
+main .section-four-container .art-three-container {
   padding-top: 32rem;
   color: hsl(167deg, 40%, 24%);
   padding-inline: 1rem;
 }
-main .section-three-container article h2,
-main .section-four-container article h2 {
+main .section-three-container .art-three-container h2,
+main .section-four-container .art-three-container h2 {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   text-transform: capitalize;
   text-align: center;
   padding-bottom: 1rem;
 }
-main .section-three-container article p,
-main .section-four-container article p {
+main .section-three-container .art-three-container p,
+main .section-four-container .art-three-container p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+}
+main .section-three-container .art-four-container,
+main .section-four-container .art-four-container {
+  padding-top: 32rem;
+  color: hsl(198deg, 62%, 26%);
+  padding-inline: 1rem;
+}
+main .section-three-container .art-four-container h2,
+main .section-four-container .art-four-container h2 {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+main .section-three-container .art-four-container p,
+main .section-four-container .art-four-container p {
   font-family: "Barlow", sans-serif;
   text-align: center;
 }
 main .section-four-container {
   background-image: url(/image-photography.d5adc1fe.jpg);
+}
+main .section-five-container {
+  padding: 3rem 1rem;
+}
+main .section-five-container h2 {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: hsl(232deg, 10%, 55%);
+  padding-bottom: 3rem;
+  letter-spacing: 4px;
+  text-align: center;
+}
+main .section-five-container .article-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+main .section-five-container .article-container article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .section-five-container .article-container article img {
+  border-radius: 50%;
+}
+main .section-five-container .article-container article p:first-of-type {
+  font-family: "Barlow", sans-serif;
+  color: hsl(213deg, 9%, 39%);
+  text-align: center;
+  margin-block: 1.5rem;
+}
+main .section-five-container .article-container article h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+main .section-five-container .article-container article p:last-of-type {
+  font-family: "Barlow", sans-serif;
+  color: hsl(232deg, 10%, 55%);
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
