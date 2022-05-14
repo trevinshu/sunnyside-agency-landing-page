@@ -192,28 +192,35 @@ main .section-two-container article a {
 main .section-two-container .audience-btn {
   border-bottom: #ffe9e6 solid 5px;
 }
-main .section-three-container {
+main .section-three-container,
+main .section-four-container {
   background-image: url(/image-graphic-design.9a867e8b.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
-main .section-three-container article {
-  padding-top: 30rem;
+main .section-three-container article,
+main .section-four-container article {
+  padding-top: 32rem;
   color: hsl(167deg, 40%, 24%);
-  padding-inline: 0.5rem;
+  padding-inline: 1rem;
 }
-main .section-three-container article h2 {
+main .section-three-container article h2,
+main .section-four-container article h2 {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   text-transform: capitalize;
   text-align: center;
   padding-bottom: 1rem;
 }
-main .section-three-container article p {
+main .section-three-container article p,
+main .section-four-container article p {
   font-family: "Barlow", sans-serif;
   text-align: center;
+}
+main .section-four-container {
+  background-image: url(/image-photography.d5adc1fe.jpg);
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

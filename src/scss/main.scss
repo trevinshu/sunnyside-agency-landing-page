@@ -160,7 +160,8 @@ main {
     }
   }
 
-  .section-three-container {
+  .section-three-container,
+  .section-four-container {
     background-image: url(../img/mobile/image-graphic-design.jpg);
     background-position: center center;
     background-size: cover;
@@ -168,9 +169,9 @@ main {
     height: 100vh;
 
     article {
-      padding-top: 30rem;
+      padding-top: 32rem;
       color: $dark-cyan;
-      padding-inline: 0.5rem;
+      padding-inline: 1rem;
       h2 {
         font-size: 2rem;
         font-family: $fraunces;
@@ -184,5 +185,9 @@ main {
         text-align: center;
       }
     }
+  }
+
+  .section-four-container {
+    background-image: url(../img/mobile/image-photography.jpg);
   }
 }
