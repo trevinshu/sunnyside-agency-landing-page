@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\mobile\\image-header.jpg":[["image-header.d56dd7f9.jpg","img/mobile/image-header.jpg"],"img/mobile/image-header.jpg"],"./..\\img\\mobile\\image-graphic-design.jpg":[["image-graphic-design.9a867e8b.jpg","img/mobile/image-graphic-design.jpg"],"img/mobile/image-graphic-design.jpg"],"./..\\img\\mobile\\image-photography.jpg":[["image-photography.d5adc1fe.jpg","img/mobile/image-photography.jpg"],"img/mobile/image-photography.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\mobile\\image-header.jpg":[["image-header.d56dd7f9.jpg","img/mobile/image-header.jpg"],"img/mobile/image-header.jpg"],"./..\\img\\mobile\\image-graphic-design.jpg":[["image-graphic-design.9a867e8b.jpg","img/mobile/image-graphic-design.jpg"],"img/mobile/image-graphic-design.jpg"],"./..\\img\\mobile\\image-photography.jpg":[["image-photography.d5adc1fe.jpg","img/mobile/image-photography.jpg"],"img/mobile/image-photography.jpg"],"./..\\img\\desktop\\image-header.jpg":[["image-header.7bbee7a2.jpg","img/desktop/image-header.jpg"],"img/desktop/image-header.jpg"],"./..\\img\\desktop\\image-transform.jpg":[["image-transform.6920743a.jpg","img/desktop/image-transform.jpg"],"img/desktop/image-transform.jpg"],"./..\\img\\desktop\\image-stand-out.jpg":[["image-stand-out.8bfdbc7a.jpg","img/desktop/image-stand-out.jpg"],"img/desktop/image-stand-out.jpg"],"./..\\img\\desktop\\image-graphic-design.jpg":[["image-graphic-design.915d5b90.jpg","img/desktop/image-graphic-design.jpg"],"img/desktop/image-graphic-design.jpg"],"./..\\img\\desktop\\image-photography.jpg":[["image-photography.0bc6e210.jpg","img/desktop/image-photography.jpg"],"img/desktop/image-photography.jpg"],"./..\\img\\desktop\\image-gallery-milkbottles.jpg":[["image-gallery-milkbottles.6abefcf1.jpg","img/desktop/image-gallery-milkbottles.jpg"],"img/desktop/image-gallery-milkbottles.jpg"],"./..\\img\\desktop\\image-gallery-orange.jpg":[["image-gallery-orange.095aa158.jpg","img/desktop/image-gallery-orange.jpg"],"img/desktop/image-gallery-orange.jpg"],"./..\\img\\desktop\\image-gallery-cone.jpg":[["image-gallery-cone.ff568d7b.jpg","img/desktop/image-gallery-cone.jpg"],"img/desktop/image-gallery-cone.jpg"],"./..\\img\\desktop\\image-gallery-sugarcubes.jpg":[["image-gallery-sugarcubes.a5b6fa8b.jpg","img/desktop/image-gallery-sugarcubes.jpg"],"img/desktop/image-gallery-sugarcubes.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55509" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51222" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
