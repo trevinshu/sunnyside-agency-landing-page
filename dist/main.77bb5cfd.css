@@ -203,12 +203,15 @@ main .section-four-container {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  justify-content: center;
 }
 main .section-three-container .art-three-container,
 main .section-four-container .art-three-container {
-  padding-top: 32rem;
+  padding: 2rem 1rem;
   color: hsl(167deg, 40%, 24%);
-  padding-inline: 1rem;
 }
 main .section-three-container .art-three-container h2,
 main .section-four-container .art-three-container h2 {
@@ -216,7 +219,7 @@ main .section-four-container .art-three-container h2 {
   font-family: "Fraunces", serif;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 main .section-three-container .art-three-container p,
 main .section-four-container .art-three-container p {
@@ -225,9 +228,8 @@ main .section-four-container .art-three-container p {
 }
 main .section-three-container .art-four-container,
 main .section-four-container .art-four-container {
-  padding-top: 32rem;
+  padding: 2rem 1rem;
   color: hsl(198deg, 62%, 26%);
-  padding-inline: 1rem;
 }
 main .section-three-container .art-four-container h2,
 main .section-four-container .art-four-container h2 {
@@ -235,7 +237,7 @@ main .section-four-container .art-four-container h2 {
   font-family: "Fraunces", serif;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 main .section-three-container .art-four-container p,
 main .section-four-container .art-four-container p {
@@ -335,18 +337,6 @@ footer .footer-container .social-icons-container a {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 960px) {
-  * {
-    font-size: 24px;
-  }
-
-  main .section-three-container .art-three-container,
-main .section-three-container .art-four-container,
-main .section-four-container .art-three-container,
-main .section-four-container .art-four-container {
-    padding-top: 25rem;
-  }
-}
 @media only screen and (min-width: 1024px) {
   header {
     padding-top: 1rem;
@@ -385,12 +375,6 @@ main .section-four-container .art-four-container {
   }
   main .section-two-container .art-two-container a:hover {
     border-bottom: hsl(7deg, 99%, 70%) solid 5px;
-  }
-  main .section-three-container .art-three-container,
-main .section-three-container .art-four-container,
-main .section-four-container .art-three-container,
-main .section-four-container .art-four-container {
-    padding-top: 32rem;
   }
 
   footer .footer-container .footer-items-container li a:hover {
@@ -459,16 +443,11 @@ main .section-two-container .art-two-container p {
     background-image: url(/image-graphic-design.915d5b90.jpg);
     background-size: cover;
   }
-  main .section-three-four-container .section-three-container .art-three-container {
-    padding: 22rem 4rem;
-  }
   main .section-three-four-container .section-four-container {
     background-image: url(/image-photography.0bc6e210.jpg);
     width: 50vw;
     height: 50vh;
-  }
-  main .section-three-four-container .section-four-container .art-four-container {
-    padding: 22rem 4rem;
+    background-size: cover;
   }
   main .section-five-container {
     padding-inline: 5rem;
